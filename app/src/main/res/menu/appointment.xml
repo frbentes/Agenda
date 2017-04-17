@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.frbentes.agendaac.view.activity.AppointmentActivity">
+    <item
+        android:id="@+id/button_search"
+        android:title="@string/search_title"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/more"
+        android:title="@string/action_settings"
+        android:icon="@drawable/tbar_settings"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_logout"
+                android:title="@string/action_logout"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

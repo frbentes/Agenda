@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "396383456166",
+    "firebase_url": "https://agendaac-e1fd0.firebaseio.com",
+    "project_id": "agendaac-e1fd0",
+    "storage_bucket": "agendaac-e1fd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396383456166:android:ce54a360b7bd5b26",
+        "android_client_info": {
+          "package_name": "com.frbentes.agendaac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396383456166-0olbvop8ikdao0mnspnclimbauqri41u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW0_bOqFG3WLmET7SwgQSobcct0DyJqjw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

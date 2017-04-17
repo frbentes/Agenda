@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="toolbarStyle">@style/ToolBarStyle</item>
+    </style>
+
+    <style name="OverFlow">
+        <item name="android:color">@android:color/white</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/Toolbar.TitleText</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="DefaultEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/default_edit_text_color</item>
+        <item name="android:textColorHint">@color/default_edit_hint_color</item>
+        <item name="android:textSize">@dimen/account_edit_text_size</item>
+        <item name="android:ems">18</item>
+    </style>
+
+    <style name="LoginButton" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@color/btn_login_bg_color</item>
+        <item name="android:textColor">@color/btn_login_text_color</item>
+        <item name="fontPath">fonts/Roboto-Medium.ttf</item>
+    </style>
+
+    <style name="ItemText">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontPath">fonts/Roboto-Bold.ttf</item>
+    </style>
+
+    <style name="SubItemText">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/description_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontPath">fonts/Roboto-Medium.ttf</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontPath">fonts/Roboto-Bold.ttf</item>
+    </style>
+
+    <style name="SearchStyle" parent="AppTheme">
+        <item name="colorAccent">@color/primary_material_light</item>
+        <item name="android:textColorSecondary">@color/primary_material_light</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

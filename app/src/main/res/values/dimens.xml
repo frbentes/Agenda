@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin_right">16dp</dimen>
+    <dimen name="fab_margin_bottom">50dp</dimen>
+
+    <!-- Sign In  -->
+    <dimen name="account_edit_text_size">16dp</dimen>
+    <dimen name="edt_password_margin_top">8dp</dimen>
+    <dimen name="buttons_margin">15dp</dimen>
+    <dimen name="btn_login_width">120dp</dimen>
+
+    <!-- Appointments Screen -->
+    <dimen name="table_caption_height">32dp</dimen>
+    <dimen name="table_caption_padding_left">10dp</dimen>
+    <dimen name="text_message_padding_top">12dp</dimen>
+    <dimen name="btn_remove_width">20dp</dimen>
+    <dimen name="btn_remove_height">20dp</dimen>
+    <dimen name="btn_remove_margin">10dp</dimen>
+    <dimen name="vw_divider_height">0.5dp</dimen>
+    <dimen name="vw_divider_margin_top">5dp</dimen>
+
+    <!-- New Appointment Screen -->
+    <dimen name="form_padding">16dp</dimen>
+</resources>

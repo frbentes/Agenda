@@ -4,9 +4,7 @@ Aplicativo Android para organizar a agenda de compromissos do usuário.
 
 ### Telas ###
 
-<h3 align="center">
-  <img src="assets/agenda_screens.png" alt="Agenda Screens" />
-</h3>
+![agenda_screens.png](https://bytebucket.org/frbentes/agendaac/raw/4bfccb46a5f892715ec238ed373acfa1931a2c2d/assets/agenda_screens.png?token=25af250575227eccdbc9c83a916674063f535cc5)
 
 ### Sobre ###
 

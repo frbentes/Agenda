@@ -60,7 +60,7 @@ O desafio consistiu na criação de um aplicativo que gerenciasse as informaçõ
 ```
 ### Instalação ###
 
-* Clone o projeto do bitbucket:
+* Clone o projeto do github:
    ```
    git clone https://github.com/frbentes/Agenda.git
    ```

@@ -19,9 +19,45 @@ O desafio consistiu na criação de um aplicativo que gerenciasse as informaçõ
 
 ### Dependências ###
 * Firebase Auth
-* Firebase Database
+* Firebase Realtime Database
 * Calligraphy
 
+### Database Rules ###
+
+```javascript
+{
+  "rules": {
+    // User profiles are only readable/writable by the user who owns it.
+    "users": {
+      "$UID": {
+        ".read": "auth.uid == $UID",
+        ".write": "auth.uid == $UID"
+      }
+    },
+    // Global appointments can be read by anyone but only written by logged-in users.
+    "appointments": {
+      ".read": true,
+      ".write": "auth.uid != null",
+      "$APPOINTMENTID": {
+        // UID must match logged in user
+        "uid": {
+          ".validate": "newData.val() == auth.uid"
+        }
+      }
+    },
+    // User appointments are only writable by the user that owns it.
+    "user-appointments": {
+      ".read": true,
+      "$UID": {
+        "$APPOINTMENTID": {
+          ".write": "auth.uid == $UID",
+        	".validate": "data.exists() || newData.child('uid').val() == auth.uid"
+        }
+      }
+    }
+  }
+}
+```
 ### Instalação ###
 
 * Clone o projeto do bitbucket:

@@ -62,7 +62,7 @@ O desafio consistiu na criação de um aplicativo que gerenciasse as informaçõ
 
 * Clone o projeto do bitbucket:
    ```
-   git clone https://frbentes@bitbucket.org/frbentes/agendaac.git
+   git clone https://github.com/frbentes/Agenda.git
    ```
 * Importe o projeto no Android Studio: **File > New > Import Project**. Ou na tela de boas-vindas selecione **Import project**.
 
